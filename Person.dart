@@ -9,7 +9,7 @@ print("$firstName $lastName");
 }
 class Student extends Person{
 String major;
-  Student(String fullName, String lastName, this.major): super(fullName,lastName);
+  Student(String firstName, String lastName, this.major): super(firstName,lastName);
   
 @override
   void fullName(){
